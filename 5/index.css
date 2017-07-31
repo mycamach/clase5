@@ -1,0 +1,31 @@
+.img-responsive {
+
+	max-width: 100%;
+}
+
+
+.row {
+
+	clear: both;
+}
+
+.cell-left {
+
+	float: left;
+	width: 33%;
+	background-color: red;
+}
+
+.cell-main {
+
+	float: left;
+	width: 33%;
+	background-color: green;
+}
+
+.cell-right {
+
+	float: left;
+	width: 33%;
+	background-color: blue;
+}
