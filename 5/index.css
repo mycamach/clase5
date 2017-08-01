@@ -1,6 +1,15 @@
+body {
+
+	margin: 0px;
+}
+
 .img-responsive {
 
 	max-width: 100%;
+	margin: auto;
+	padding: 10px;
+	display: block;
+	
 }
 
 
@@ -9,23 +18,36 @@
 	clear: both;
 }
 
+
+.cell-up {
+
+	width: 100%;
+	background-color: lightgreen;
+	text-align: center;
+	height: 100px;
+
+}
+
 .cell-left {
 
 	float: left;
 	width: 33%;
-	background-color: red;
+	padding: 0px 20px 0px 20px; 
+	box-sizing: border-box;
 }
 
 .cell-main {
 
 	float: left;
 	width: 33%;
-	background-color: green;
+	padding: 0px 20px 0px 20px; 
+	box-sizing: border-box;
 }
 
 .cell-right {
 
 	float: left;
 	width: 33%;
-	background-color: blue;
+	padding: 0px 20px 0px 20px; 
+	box-sizing: border-box;
 }
