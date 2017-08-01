@@ -1,0 +1,62 @@
+
+.img-responsive {
+
+	max-width: 100%;
+	
+}
+
+
+.row {
+
+	clear: both;
+}
+
+
+.header {
+
+	width: 100%;
+	background-color: lightgreen;
+	text-align: center;
+	height: 20vh;
+	color: white;
+	clear: both;
+
+}
+
+@media (min-width: 481px) {
+
+	.cell-m {
+
+		float: left;
+		width: 33%;
+		padding: 10px 50px 0px 50px; 
+		box-sizing: border-box;
+
+	}
+}
+
+@media (max-width: 480px) {
+
+	.header {
+
+		width: 100%;
+		background-color: lightgreen;
+		text-align: center;
+		height: 20vh;
+		font-size: 2vh;
+		color: white;
+
+}
+
+	.cell-s {
+
+		float: left;
+		width: 15%;
+		padding: 10px 50px 10px 50px; 
+		box-sizing: border-box;
+		clear: both;
+	}
+}
+
+
+
