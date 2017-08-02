@@ -18,6 +18,7 @@ body {
 		color: white;
 		font-size: 6vh;
 		background-color: rgb(90, 191, 57);
+		margin-bottom: 5px;
 
 	}
 
@@ -30,6 +31,8 @@ body {
 
 		max-width: 100%;
 		margin-top: 30px;
+		display: block;
+		margin: auto;
 
 	}
 
@@ -37,7 +40,7 @@ body {
 
 		float: left;
 		width: 33%;
-		padding: 10px 50px 0px 50px; 
+		padding: 90px 50px 0px 90px; 
 		box-sizing: border-box;
 
 	}
@@ -50,23 +53,23 @@ body {
 
 		padding: 20px;
 		width: 100%;
-		background-color: #2ecc71;
+		background-color: rgb(90, 191, 57);
 		text-align: center;
 		height: 20vh;
 		color: white;
+		font-size: 4vh;
+		padding: 70px 30px 20px 0px;
 	}
 
 
 
 	.cell-s {
 
-		float: left;
 		padding: 10px 50px 10px 50px; 
 		box-sizing: border-box;
-		clear: both;
 		display: block;
-		font-size: 3vh;
-		max-width: 80%;
+		max-width: 85%;
+		margin-left: 15%;
 
 	}
 
@@ -78,6 +81,7 @@ body {
 	.img-responsive {
 
 		max-width: 100%;
+		margin-top: 30px;
 
 	}
 }
